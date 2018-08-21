@@ -31,7 +31,7 @@
 
 namespace Oui;
 
-if (class_exists('Oui\Player\Provider')) {
+if (class_exists('Oui\Player\Oembed')) {
 
     class Coub extends Player\Oembed
     {
