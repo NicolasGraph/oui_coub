@@ -55,15 +55,15 @@ if (class_exists('Oui\Player\Oembed')) {
             'id'     => '2',
         );
         protected static $iniParams = array(
-            'startWithHD'             => array(
-                'default' => 'true',
-                'valid'   => array('true', 'false'),
-            ),
-            'muted'             => array(
+            'autostart'   => array(
                 'default' => 'false',
                 'valid'   => array('true', 'false'),
             ),
-            'autostart'             => array(
+            'muted'       => array(
+                'default' => 'false',
+                'valid'   => array('true', 'false'),
+            ),
+            'startWithHD' => array(
                 'default' => 'false',
                 'valid'   => array('true', 'false'),
             ),
