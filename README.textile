@@ -113,7 +113,10 @@ From Txp 4.7, paramaters accepting @true@ and @false@ as valid values can be ena
 Play the video automatically on load. Note that this won’t work on some devices. =:
 - @muted@ :=
 @true@ or @false@; initially set to @false@.
-Disable sound by default.
+Disable sound by default. =:
+- @startWithHD@ :=
+@true@ or @false@; initially set to @false@.
+Start playing in high definition. =:
 
 h3. oui_if_coub vs oui_if_player
 
